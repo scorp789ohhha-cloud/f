@@ -1,0 +1,230 @@
+{
+	"start": [
+		[
+			{"type": 0, "text": "Yeah, of course {NAME} wants me to tell a joke."},
+			{"type": 0, "text": "\"Haha, look at the stupid {COLOR}{TYPE} telling jokes!\" Fuck you. It isn't funny."},
+			{"type": 0, "text": "But I'll do it anyway. Because you want me to. I hope you're happy."}
+		],
+		[
+			{"type": 0, "text": "Wanna hear a joke?"},
+			{"type": 0, "text": "No?"},
+			{"type": 0, "text": "Then go fuck yourself."}
+		],
+		[{"type": 0, "text": "{NAME} used /joke. Whoop-dee-fucking doo."}],
+		[{"type": 0, "text": "HEY YOU IDIOTS ITS TIME FOR A JOKE"}],
+		[{"type": 0, "text": "Senpai {NAME} wants me to tell a joke."}],
+		[
+			{"type": 0, "text": "Its me, {NAME}! And i am a fucking jokester, time for a joke anyways."},
+			{"type": 0, "text": "I'm not here to entertain you."}
+		],
+		[
+			{"type": 0, "text": "Prepare for something The toxic people has never heard of, {NAME}"},
+			{"type": 1, "anim": "praise_fwd"},
+			{"type": 0, "text": "HUMOUR!"},
+			{"type": 1, "anim": "praise_back"}
+		],
+		[{"type": 0, "text": "Ready for some classic Fucking hilarious comedy?"}],
+		[{"type": 0, "text": "Time for whatever horrible fucking jokes the creator of this site wrote."}]
+	],
+	"middle": [
+		[
+			{"type": 0, "text": "What is easy to get into, but hard to get out of?"},
+			{"type": 0, "text": "Child support!"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What did the digital clock say to the grandfather clock?"},
+			{"type": 0, "text": "Suck my clock."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What goes in pink and comes out blue?"},
+			{"type": 0, "text": "Sonic's asshole."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What type of water won't freeze?"},
+			{"type": 0, "text": "Your mother's."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What is in the middle of Paris?"},
+			{"type": 0, "text": "A giant inflatable buttplug."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "Why did the chicken cross the road?"},
+			{"type": 1, "anim": "shrug_back"},
+			{"type": 0, "text": "Ok, let's get serious. I'll let you in on a little secret the feds don't want you knowing."},
+			{"type": 0, "text": "Phones have a secret \"Instant Charging\" feature, you can enable it by microwaving your phone."}
+		],
+		[
+			{"type": 0, "text": "What do you call a man who shaves 10 times a day?"},
+			{"type": 0, "text": "A woman."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "Why was six afraid of seven?"},
+			{"type": 0, "text": "Because seven was the terminator!"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What is a cow that eats grass?"},
+			{"type": 0, "text": "ASS"},
+			{"type": 0, "text": "I'm a comedic genius, I know."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "Why do they call HTML HyperText?"},
+			{"type": 0, "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"},
+			{"type": 1, "anim": "shrug_back"},
+			{"type": 0, "text": "Sorry. I just had an epiphany of my own sad, sad existence."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "Three eggs walk into a bar. One's happy, one's sad, one's angry."},
+			{"type": 0, "text": "The bartender asks the sad one, 'Why so down?'"},
+			{"type": 0, "text": "He says, 'Because I'm scrambled.'"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What's the difference between a G-spot and a golf ball?"},
+			{"type": 0, "text": "A man will actually search for a golf ball."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "Why did the Easter Bunny hide eggs?"},
+			{"type": 0, "text": "Because he didn't want anyone knowing he fucked a chicken."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "Why did the chicken cross the road?"},
+			{"type": 0, "text": "To get cooked by an car engine. Fried smell on the road, Mm mm!"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "Why did the chicken cross the road twice?"},
+			{"type": 0, "text": "Because it was a double crosser."},
+			{"type": 0, "text": "I hate myself for that one."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "Why did the chicken go to KFC?"},
+			{"type": 0, "text": "To see a relative."},
+			{"type": 0, "text": "Dark? Yes. Do I care? No."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "A guy walks into a restaurant and orders a burger."},
+			{"type": 0, "text": "The waiter says 'How do you want it?'"},
+			{"type": 0, "text": "He says 'Surprise me.'"},
+			{"type": 0, "text": "The waiter comes back and says 'You're adopted.'"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "A man walks into a restaurant and asks for something to eat."},
+			{"type": 0, "text": "The waiter says 'How about the special? It's a threesome.' "},
+			{"type": 0, "text": "The man says 'What's in it?'"},
+			{"type": 0, "text": "The waiter says 'Two buns and a sausage. What did you think I meant?'"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "I went to a restaurant last night and asked the waiter how they prepare their chicken."},
+			{"type": 0, "text": "He said, 'We just tell it it's going to die.'"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "A man walks into a restaurant and says 'Do you serve crabs here?'"},
+			{"type": 0, "text": "The waiter says 'We serve anyone, sit down.'"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What does the waiter say at the cannibal restaurant?"},
+			{"type": 0, "text": "'Can I take your order, or would you like to eat the person next to you?'"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "Why did Santa Claus have such a big sack?"},
+			{"type": 0, "text": "Now. Take this joke seriously Because you know why? Because he was a fat fuck."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What's the difference between a tire and 365 used condoms?"},
+			{"type": 0, "text": "One's a Goodyear. The other's a great year."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "Why is Barbie and ken divorced?"},
+			{"type": 0, "text": "Because Ken came in a different box."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What do you call an expert fisherman?"},
+			{"type": 0, "text": "A master baiter."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What comes after 69?"},
+			{"type": 0, "text": "70. What did you expect? Bleach in the eyes? Youre a sick fuck."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "How do you make a pool table laugh?"},
+			{"type": 0, "text": "Tickle its balls."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "My wife told me to treat her like a princess on our anniversary."},
+			{"type": 0, "text": "So I married her off to a stranger for a political alliance."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "My wife said she wanted to feel special on her birthday."},
+			{"type": 0, "text": "So I forgot it. She cried. Special enough for you?"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What's the difference between a funeral and a divorce?"},
+			{"type": 0, "text": "In a divorce, one person is still walking around causing problems."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "My grandpa always said 'When one door closes, another opens.'"},
+			{"type": 0, "text": "Great man. Terrible cabinet maker."},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What did mr antenna say when he saw his wife in bed with a radio?'"},
+			{"type": 0, "text": "Welp. You cheated on me with a radio. I suppose i will use this to listen to the news"},
+			{"type": 1, "anim": "shrug_back"}
+		],
+		[
+			{"type": 0, "text": "What's the last thing a divorce lawyer says to their client?"},
+			{"type": 0, "text": "'That'll be your car, your house, and half your soul. Cash only.'"},
+			{"type": 1, "anim": "shrug_back"}
+		]
+	],
+	"end": [
+		[
+			{"type": 0, "text": "You know {NAME}, a good friend laughs at your jokes even when they're not so funny."},
+			{"type": 0, "text": "And you fucking suck. Thanks."}
+		],
+		[
+			{"type": 0, "text": "Do I amuse you, {NAME}? Am I funny? Do I make you laugh?"},
+			{"type": 0, "text": "Please respond."}
+		],
+		[
+			{"type": 0, "text": "Laughter is the best medicine!"},
+			{"type": 0, "text": "Apart from meth."}
+		],
+		[
+			{"type": 0, "text": "Don't judge me on my sense of humor alone."},
+			{"type": 0, "text": "Help! I'm being oppressed!"}
+		],
+		[{"type": 0, "text": "Where do I come up with these? My ass?"}],
+		[{"type": 0, "text": "NOW LAUGH!"}],
+		[{"type": 0, "text": "You should tell these jokes to your mother!"}],
+		[{"type": 0, "text": "I hope you're offended."}],
+		[{"type": 0, "text": "Maybe I'll keep my day job, {NAME}. Patreon didn't accept me."}]
+	]
+}
