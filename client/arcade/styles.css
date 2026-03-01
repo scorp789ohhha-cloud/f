@@ -1,0 +1,152 @@
+:root{
+  --bg:#eef2ff;
+  --card-w:24vw; /* responsive tile width — made smaller */
+  --gap:3.2vw;
+  --accent:#fff;
+  --muted:#00000099;
+}
+
+/* Page layout */
+html, body{
+  height:100%;
+  margin:0;
+  font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  overflow: hidden; /* keep flex layout; scroll inside arcade */
+}
+
+body{
+  background: linear-gradient(135deg,#d9e0ff 0%, #f6f8ff 60%);
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  justify-content:flex-start;
+}
+
+/* Brand header */
+.brand{
+  height:12vh;
+  min-height:64px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(90deg,#5f0bff,#b33cff);
+  color:white;
+  box-shadow:0 6px 18px rgba(0,0,0,0.12);
+}
+.brand-inner{
+  font-weight:800;
+  font-size:clamp(18px,6vw,36px);
+  letter-spacing:1px;
+}
+
+/* Arcade grid - scrollable */
+.arcade{
+  padding:calc(var(--gap) / 2);
+  flex:1 1 auto;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+  overflow-y: auto;                 /* allow vertical scroll */
+  -webkit-overflow-scrolling: touch; /* smooth scrolling on mobile */
+}
+
+/* Grid layout */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(120px, var(--card-w)));
+  gap:var(--gap);
+  width:100%;
+  max-width:1100px;
+  align-content:start;
+  justify-content:center;
+}
+
+/* Tile card */
+.card{
+  position:relative;
+  aspect-ratio:3/4;
+  background:var(--accent);
+  border-radius:8px;
+  overflow:hidden;
+  box-shadow:0 8px 20px rgba(15,15,15,0.12);
+  touch-action:manipulation;
+}
+
+/* Thumbnail image fills card */
+.thumb{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  transition:transform .35s ease;
+  will-change:transform;
+}
+
+/* For square thumbs */
+.thumb.square{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  position:static;
+  transform:none;
+  will-change:auto;
+  pointer-events:auto;
+}
+
+/* For oversized thumbs */
+.thumb.oversized{
+  width:auto;
+  height:auto;
+  max-width:70%;
+  max-height:70%;
+  object-fit:none;
+  object-position:center;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%) scale(1);
+  will-change:transform;
+  filter:drop-shadow(0 6px 18px rgba(0,0,0,0.12));
+}
+
+/* Hover / active effects - show title */
+.card .meta{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  padding:12px;
+  background:linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.45) 40%, rgba(0,0,0,0.65) 100%);
+  color:white;
+  font-weight:600;
+  font-size:15px;
+  transform:translateY(32px);
+  opacity:0;
+  transition:all .28s ease;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+}
+
+.card:hover .meta,
+.card:focus-within .meta{
+  transform:translateY(0);
+  opacity:1;
+}
+
+/* Hover lift for thumbnails */
+.card:hover .thumb:not(.oversized):not(.square),
+.card:focus-within .thumb:not(.oversized):not(.square){
+  transform:scale(1.03);
+}
+
+/* Mobile adjustments */
+@media (max-width:420px){
+  :root{--card-w:36vw; --gap:3.6vw;}
+  .grid{gap:3vw;}
+}
+
+@media (min-height:700px){
+  .arcade{padding-top:14px;}
+}
